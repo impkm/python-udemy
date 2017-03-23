@@ -23,4 +23,8 @@ print(my_list3)
 
 my_list3.pop(0) #removes first list object
 print(my_list3)
+print(my_list)
+
+print cmp(my_list3, my_list) #compares list3 to list1
+
 
