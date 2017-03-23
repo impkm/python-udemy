@@ -7,6 +7,21 @@ print(my_list) #prints new list
 my_list.remove(12) #removes what is called.
 print(my_list) #prints my list
 
+print(len(my_list)) #prints length of list
+
+my_list2 = [4345, 'comment', 'how']
+
+print('{} am i doing this'.format(my_list2[2])) #prints from a list at 'second' location
+print('this is where i {}!'.format(my_list2[1])) #prints from list at 'one' location
+print('i wish to earn this much a month {}'.format(my_list2[0])) #prints from list at 'zero' location
+
+my_list3 = my_list + my_list2 #my_list3 is a combination of my_list and my_list2
+print(my_list3) #my_list3 is printed in order received from previous line
+
+
+
+
+
 
 
 
