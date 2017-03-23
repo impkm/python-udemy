@@ -26,5 +26,7 @@ print(my_list3)
 print(my_list)
 
 print cmp(my_list3, my_list) #compares list3 to list1
+print('this is my value in my first list: ', format(max(my_list)))
 
+print('why is it doing that')
 
