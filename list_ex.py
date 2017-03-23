@@ -18,14 +18,9 @@ print('i wish to earn this much a month {}'.format(my_list2[0])) #prints from li
 my_list3 = my_list + my_list2 #my_list3 is a combination of my_list and my_list2
 print(my_list3) #my_list3 is printed in order received from previous line
 
+my_list3.append('do it') #adds to list at end
+print(my_list3)
 
-
-
-
-
-
-
-
-
-
+my_list3.pop(0) #removes first list object
+print(my_list3)
 
