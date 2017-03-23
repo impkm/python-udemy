@@ -21,11 +21,20 @@ print(my_list3) #my_list3 is printed in order received from previous line
 my_list3.append('do it') #adds to list at end
 print(my_list3)
 
-my_list3.pop(0) #removes first list object
+my_list3.pop(0) #removes first list element
 print(my_list3)
 print(my_list)
 
 print cmp(my_list3, my_list) #compares list3 to list1
-print('this is my value in my first list: ', format(max(my_list)))
+print('this is my value in my first list: {}'.format(max(my_list)))
 
-print('why is it doing that')
+List2 = [3234, 3243, 443, 34332, 44444] #new list
+List2.pop(2) #removes second element
+print(List2) #prints list without 'second' element
+
+
+
+
+
+
+
