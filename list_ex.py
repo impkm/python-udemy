@@ -26,15 +26,8 @@ print(my_list3)
 print(my_list)
 
 print cmp(my_list3, my_list) #compares list3 to list1
-print('this is my value in my first list: {}'.format(max(my_list)))
+print('this is my max value in my first list: {}'.format(max(my_list)))
 
 List2 = [3234, 3243, 443, 34332, 44444] #new list
 List2.pop(2) #removes second element
 print(List2) #prints list without 'second' element
-
-
-
-
-
-
-
