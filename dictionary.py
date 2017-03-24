@@ -40,3 +40,6 @@ print(my_dict) # prints updated dictionary with dict2
 my_dict.update({'how':23}) # adds to dictionary
 print(my_dict) # prints updated dictionary
 
+print('Values for my first dictionary: %s'%my_dict.values()) # prints values for my_dict
+print('Items in my first dictionary: %s'%my_dict.items()) # prints items in my_dict
+
