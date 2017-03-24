@@ -29,4 +29,14 @@ dict3 = {'inception': {'leo': {'titanic': {'rose'}}}} # dictionary inception
 print(dict3) # prints dictionary
 print(dict3['inception'] ['leo'] ['titanic']) # prints value to 3rd dictionary
 
+print('This is the length of my first list %d' % len(my_dict)) # prints length of first list
+print('This is the length of my second list %d' %len(dict2)) #prints length of second list
+print('This is the length of my third list %d' %len(dict1)) #prints length of dict1
+print('This is the length of my fourth list %d' %len(dict3)) #prints length of dict3
+
+my_dict.update(dict2) # updates my_dict with dict2
+print(my_dict) # prints updated dictionary with dict2
+
+my_dict.update({'how':23}) # adds to dictionary
+print(my_dict) # prints updated dictionary
 
