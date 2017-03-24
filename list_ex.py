@@ -21,7 +21,7 @@ print(my_list3) #my_list3 is printed in order received from previous line
 my_list3.append('do it') #adds to list at end
 print(my_list3)
 
-my_list3.pop(0) #removes first list element
+my_list3.pop(0) #removes first element from list
 print(my_list3)
 print(my_list)
 
