@@ -21,6 +21,8 @@ print(new_tuple[:-1]) # slicing ending with one less on the end
 print(max(new_tuple)) # prints maximum number in the tuple sequence
 print(min(new_tuple)) # prints minimum number in the tuple sequence
 
-for x in (t): # for loop to call 'x'
+for x in (t): # for loop to call 'x' in t
     print(x) # prints 'x'
 
+for x in (list1): # for loop to call 'x' in list1
+    print x # prints x
