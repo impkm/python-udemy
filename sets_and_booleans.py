@@ -5,7 +5,7 @@ print(x)  # prints set
 x.add(2)  # adds to x
 print(x)  # prints x
 
-y = (2, 2, 2, 3, 4, 3, 5, 4, 4, 22, 32, 44)  # list with ints that repeat
+y = (2, 2, 2, 3, 4, 3, 5, 4, 4, 22, 32, 44)  # tuple with ints that repeat
 x.update(y)  # updates set 'x' with list 'y'
 print(set(x))  # prints updated list for 'x'
 print(set(y))  # prints unique sets from list
@@ -25,4 +25,6 @@ else:
 
 b = None  # assigns placement holder for variable
 print(b)  # prints None
+
+print(y.count(2))  # counts how many times '2' is repeated
 
