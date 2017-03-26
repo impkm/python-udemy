@@ -39,15 +39,25 @@ set1.add(22)  # add to set
 set1.add(21)  # add to set
 print(set1)  # print set1
 set1.clear()  # clears set
-print(set1)  # prints clear set
+print('Show me set1: {}'.format(set1))  # prints clear set
 
 # dictionary
-dict1 = {}
+dict1 = {}  # create empty dictionary
+dict1['what'] = 123  # update dictionarys first key
+dict1.update({'happened':456, 'to':789})  # update dictionary using .update
+print(dict1)  # print dict1
+dict1.pop('happened', 456)  # pop deletes key called
 print(dict1)
-del dict1
 
 dict2 = {'words':'make', 'no':'sense'}  # dictionary created
 print(dict2.keys())  # prints keys to dictionary
 print(dict2['words'])  # prints value for first key
 print(dict2['no'])  # prints value to second key
+
+# tuples
+t = (2, 3, 3, 4, 5, 3, 3, 5, 22, 33, 21, 56)
+print(t.count(3))
+print(t.index(56))
+print(t)
+print(sorted(t))
 
