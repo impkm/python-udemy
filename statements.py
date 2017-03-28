@@ -31,3 +31,23 @@ if x > z and y > z:  # if statement checking both conditions
 else:  # this will not print
     print('X and Y are less than Z')
 
+
+
+# while statment
+while x > y:
+    print('{} is greater than {}'.format(x,y))
+else:
+    print('{} is less than {}'.format(x,y))
+
+a = 0
+b = 3
+
+while a <= b:  # while statement with count
+    print('{} is less than {}'.format(a,b))
+    a += 1
+else:  # this will still print
+    print('{} is greater than {}'.format(a,b))
+
+
+
+
